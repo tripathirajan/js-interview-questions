@@ -204,3 +204,18 @@ function a(){
 } 
 console.log(a); // 5
 ```
++ Argument
+```js
+function show(){
+    console.log(arguments)
+}
+show("hello", "world") // [Arguments] { '0': 'hello', '1': 'world' }
+```
++ Rest operator
+```js
+
+function show(...params){
+    console.log(params)
+}
+show("hello", "world") // [ 'hello', 'world' ]
+```
