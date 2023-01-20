@@ -55,7 +55,7 @@ console.log(isPrime(10));
 console.log(isPrime(11));
 ```
 
-### Create custom debounce function
+<h4> 4. Create custom debounce function </h4>
 
 ```js
 const debounce = (callback, delay) => {
@@ -80,7 +80,7 @@ handleInputChange("Hello2");
 
 ```
 
-<h4> 4. Function execute only once, no matter called many times
+<h4> 5. Function execute only once, no matter called many times
 </h4>
 
 ```js
@@ -104,7 +104,7 @@ msg();
 msg();
 
 ```
-<h4> 5. Print number pattern </h4>
+<h4> 6. Print number pattern </h4>
 
 ```js
 
@@ -124,7 +124,7 @@ console.log(result);
 // 12345
 
 ```
-<h4> 5. Get indexes of elements in an array equal to sum </h4>
+<h4> 7. Get indexes of elements in an array equal to sum </h4>
 
 ```js
 
