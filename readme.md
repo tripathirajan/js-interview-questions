@@ -152,6 +152,21 @@ function findIndex(arr, target){
 console.log(findIndex([1,3,2,5,4], 7));
 ```
 
+<h4> 8. Write generic function to multiply of parameter and give result</h4>
+
+```javascript
+function multiply(x){
+     return function (y){
+        if(!y){
+        return x;
+    }
+        return multiply((x * y));
+    }
+}
+console.log(multiply(2)(3)(4)()); // 24
+```
+
+----
 ## #Output
 
 + Console
