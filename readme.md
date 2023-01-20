@@ -154,13 +154,14 @@ console.log(findIndex([1,3,2,5,4], 7));
 
 ## #Output
 
++ Console
 ```js
-// 1. console
 console.log(1 < 2 < 3); // true
 console.log(3 > 2 > 1); // false
+```
 
-
-// 2. promise
++ Promise
+```js
 async function f() {
     let result = 'first!';
     let promise = new Promise((resolve, reject) => {
@@ -173,10 +174,10 @@ async function f() {
 }
 
 f(); // done!
+```
++ Hoisting
 
-
-// 3. hoisting
-
+```js
 console.log(a); // function a
 var a; 
 console.log(a); // function a
