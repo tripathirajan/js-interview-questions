@@ -1,5 +1,10 @@
 # JS Interview questions
 
+## ReactJS Kanban board machine test
+![kanban board](https://github.com/tripathirajan/reactjs-kanban-board-interview/blob/master/screenshots/kanban-board.png?raw=true, "Kanban board")
+- <a href="https://github.com/tripathirajan/reactjs-kanban-board-interview">Click here for code</a>
+- <a href="https://tripathirajan.github.io/reactjs-kanban-board-interview/">Click Here for demo</a>
+
 ## # Implementation
 
 <h4> 1. Use of closure function</h4>
@@ -165,7 +170,6 @@ function multiply(x){
 }
 console.log(multiply(2)(3)(4)()); // 24
 ```
-
 ----
 ## #Output
 
@@ -219,3 +223,4 @@ function show(...params){
 }
 show("hello", "world") // [ 'hello', 'world' ]
 ```
+
